@@ -58,7 +58,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin:20px auto;
+    margin:50px auto;
 }
 .logo{
     display: flex;
@@ -96,16 +96,92 @@ nav ul li a{
     height:56px;
 }
 .fa-youtube-play{
-width:33.9px;
-height: 24px;
-color:#F61C0D;
-margin-top: 5px;
+    font-size: 23px !important;
+     color:#F61C0D;
+    margin-top: -2px;
 }
 .fa-tiktok{
     width:24px;
     height:24px;
     margin-top: 3px;
 }
+/* banner section */
+.banner-container{
+    width:80%;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:68px;
+}
+.banner-title{
+    width:50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-heading{
+font-size: 3rem;
+color:#0B0223;
+font-weight: 600;
+margin-bottom:15px;
+}
+.banner-title h1{
+font-size: 95px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.banner-icon{
+    width:24px;
+    height:24px;
+    color:#FF42A5;
+    margin-right: 4px;
+    margin-top:5px;
+}
+.banner-btn{
+    display: flex;
+    margin-top:40px;
+    gap:15px;
+    margin-left:-10px;
+}
+.btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#FFF;
+    border:none;
+
+}
+.btn1{
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+}
+.btn2{
+background: #4EC5F7;
+}
+
+.banner-img img{
+width:100%;
+height: auto;
+height:auto;
+margin-left:13px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* responsive part */
 
@@ -124,5 +200,30 @@ margin-top: 5px;
     .nav-btn{
         margin-top: 35px;
     }
-    
+    .banner-container{
+        width:100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .banner-title{
+        width:100%;
+        align-items: center;
+    }
+    .banner-heading{
+        margin-bottom: 10px;
+        font-size:2.5rem;
+        margin-top:50px;
+    }
+    .banner-title h1{
+        font-size: 60px;
+        margin-bottom:15px;
+    }
+    .text20{
+        font-size: 16px;
+       
+    }
+    .btn{
+        padding: 15px 30px;
+        font-size: 15px;
+    }
 }
