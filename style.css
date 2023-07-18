@@ -212,7 +212,7 @@ main{
 
 }
 .gamer-img img{
-    width:100%;
+    width:90%;
 }
 .gamer-content{
     width:60%;
@@ -223,14 +223,16 @@ main{
 }
 
 .gamer-para{
+    width:520px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-top:24px;
 }
 .gamer-para h3{
-    color: #534C64;
-font-size: 32px;
+
+color: #534C64;
+font-size: 30px;
 font-weight: 700;
 line-height: 45px;
 }
@@ -241,7 +243,7 @@ line-height: 45px;
 }
 .video-container{
     width:80%;
-    margin:40px auto;
+    margin:120px auto;
     
 }
 .videos-div{
@@ -298,10 +300,39 @@ align-items: flex-start;
    
 }
 
+/* feature section */
 
-
-
-
+.feature-section{
+    width:70%;
+    margin:40px auto ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-title{
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap:15px;
+}
+.feature-img{
+    width:50%;
+}
+.feature-img img{
+    width:635px;
+    height:650px;
+    margin-left:100px;
+}
+.top-img img{
+    width:318px;
+    height:365px;
+    border-radius: 8px;
+    position:relative;
+    top: -275px;
+    left: -112px;
+}
 
 /* responsive part */
 
@@ -319,7 +350,7 @@ align-items: flex-start;
         gap:50px;
     }
 
-    .menu, nav ul, .gamer-section{
+    .menu, nav ul, .gamer-section , .feature-section{
         width:100%;
         flex-direction: column;
         gap:36px;
@@ -364,11 +395,11 @@ align-items: flex-start;
         background: white;
         margin-top: 15px;
     }
-    .gamer-content, .card{
+    .gamer-content, .card, .feature-title{
         width:100%;
         align-items: center;
     }
-.gamer-content p{
+.gamer-content p, .feature-title p{
     width:80%;
     text-align: center;
 }
@@ -377,13 +408,14 @@ align-items: flex-start;
     text-align: center;
 }
 
-.gamer-para h3{
+.gamer-para h3  {
     text-align: center;
     width:100%;
     font-size: 25px;
 }
-.video-container{
+.video-container {
     width:100%;
+   
 }
 .title h1{
     margin-top:140px;
@@ -406,6 +438,24 @@ align-items: flex-start;
 }
 .card p{
     font-size:14px;
+}
+.feature-title h1{
+    width:80%;
+    text-align: center;
+}
+.feature-img{
+    width:100%;
+}
+.feature-img img{
+    width:100%;
+    height:auto;
+    margin-left:22px;
+}
+.top-img img{
+    width:250px;
+    height:250px;
+    top:-170px;
+    left:-20px;
 }
 
 }
