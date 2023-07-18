@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 /* shared style */
-.my{
+.mb{
     margin-bottom:15px;
 }
 .color-text{
@@ -194,11 +194,12 @@ margin-left:13px;
 /* gamer section */
 main{
     width:100%;
-    margin-top:-31px;
+    margin-top:-33px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-section{
     width:80%;
+    height:600px;
     margin:30px auto;
     display:flex;
     justify-content: space-between;
@@ -234,8 +235,68 @@ font-weight: 700;
 line-height: 45px;
 }
 
+/* video section */
+.title h1{
+    margin-top:120px;
+}
+.video-container{
+    width:80%;
+    margin:40px auto;
+    
+}
+.videos-div{
+    width:100%;
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.video-card{
+    margin-top:80px;
+    position: relative;
+    
+}
+.card{
+width:348px;
+height:483px;
+border-radius: 16px;
+gap:20px;
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
 
-
+}
+.card img{
+    width:342px;
+    height:400px;
+}
+.top-card{
+    border:1px solid #F948B2;
+    width:342px;
+    height:400px;
+    background:rgba(0, 0, 0, 0.5);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    border-radius: 16px;
+    position:absolute;
+    top:0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin:top;
+   transition:all 0.5s ease;
+}
+.card:hover ~.top-card{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+   
+}
 
 
 
@@ -303,7 +364,7 @@ line-height: 45px;
         background: white;
         margin-top: 15px;
     }
-    .gamer-content{
+    .gamer-content, .card{
         width:100%;
         align-items: center;
     }
@@ -311,7 +372,7 @@ line-height: 45px;
     width:80%;
     text-align: center;
 }
-.gamer-para span{
+.gamer-para span {
     width:100%;
     text-align: center;
 }
@@ -321,9 +382,30 @@ line-height: 45px;
     width:100%;
     font-size: 25px;
 }
-
-
-
-
+.video-container{
+    width:100%;
+}
+.title h1{
+    margin-top:140px;
+    width:100%;
+    font-size: 35px;
+}
+.title p{
+    font-size: 16px;
+}
+.videos-div{
+    flex-direction: column;
+    gap:0px;
+}
+.video-card{
+    margin-top: 40px;
+}
+.top-card{
+    left:28px;
+    top:16px;
+}
+.card p{
+    font-size:14px;
+}
 
 }
