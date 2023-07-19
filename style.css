@@ -666,9 +666,9 @@ footer{
     font-weight: 600;
 }
 .footer-icon{
-    font-size:25px;
+    font-size:20px;
     margin-bottom:15px;
-    width:50%;
+    width:51%;
     display: flex;
     gap:35px;
     flex-wrap: wrap;
@@ -891,7 +891,7 @@ footer{
 .footer-icon{
     font-size:25px;
     margin-bottom:15px;
-    width:50%;
+    width:60%;
     display: flex;
     gap:35px;
     flex-wrap: wrap;
