@@ -377,7 +377,7 @@ align-items: flex-start;
     max-width:1450px;
     height:427px;
     display:flex;
-    margin:0px auto 40px auto;
+    margin:40px auto;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -465,13 +465,9 @@ footer{
 .footer-div small{
     color:rgba(255, 255, 255, 0.60);
 }
-
-
-
-
-
-
-
+.icon{
+    color:white ;
+}
 
 .hide{
     display: none;
@@ -488,7 +484,7 @@ footer{
         box-shadow: none;
         margin:0px auto;
     }
-    nav{
+    nav,.menu, nav ul{
         width:100%;
         flex-direction: column;
         gap:50px;
@@ -496,13 +492,7 @@ footer{
     .feature-section{
         width:100%;
         flex-direction: column;
-        margin-bottom: 60px; 
-    }
-
-    .menu, nav ul{
-        width:100%;
-        flex-direction: column;
-        gap:36px;
+        margin-bottom: 120px; 
     }
     .nav-btn{
         margin-top: 35px;
@@ -561,24 +551,18 @@ footer{
             gap:20px;
             
 }
-.gamer-img img{
+.gamer-img img,.gamer-para , .gamer-para span{
     width:100%;
-    height:auto;
-}
-    
-.gamer-content, .card, .feature-title{
-        width:100%;
-        align-items: center;
-    }
-.gamer-content p, .feature-title p{
-    width:80%;
+    /* height:auto; */
     text-align: center;
 }
-.gamer-para{
-    width: 100%;
+    
+.gamer-content, .card, .feature-title, .video-container{
+        width:100%;
+        align-items: center;
 }
-.gamer-para span {
-    width:100%;
+.gamer-content p, .feature-title p, .feature-title h1{
+    width:80%;
     text-align: center;
 }
 
@@ -586,10 +570,6 @@ footer{
     text-align: center;
     width:100%;
     font-size: 25px;
-}
-.video-container {
-    width:100%;
-   
 }
 .title h1{
     margin-top:140px;
@@ -611,10 +591,6 @@ footer{
 .card p{
     width:80%;
     font-size:14px;
-}
-.feature-title h1{
-    width:80%;
-    text-align: center;
 }
 .feature-img, .feature-img2{
     width:90%;
@@ -832,7 +808,7 @@ footer{
     flex-direction: column;
     width:100%;
     height: auto;
-    margin-bottom:300px;
+    margin-bottom:400px;
 }
 .feature-title h1{
     width:80%;
@@ -879,7 +855,7 @@ footer{
     text-align: center;
 }
 .games-type-container{
-    width:100%;
+    width:78%;
     height:auto;
     margin-bottom:30px;
     
