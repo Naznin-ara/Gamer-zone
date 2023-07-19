@@ -475,6 +475,7 @@ footer{
 
 /* responsive part*/
 
+
 @media screen and (max-width :576px) {
     .nav-container{
         width:100%;
@@ -540,8 +541,7 @@ footer{
         background: white;
         margin-top: 15px;
     }
-
-        .gamer-section{
+.gamer-section{
             width:100%;
             height:600px;
             margin:0px auto;
@@ -585,7 +585,7 @@ footer{
 }
 
 .top-card{
-    left:28px;
+    left:27px;
     top:2px;
 }
 .card p{
@@ -635,18 +635,22 @@ footer{
     width:100%;
     height:auto;
     margin-bottom:30px;
+    gap:10px;
     
     
 }
 .game-type{
-    width:140px;
-    height:50px;
-    font-size: 12px;
-    
+    width:114px;
+    height:40px;
+    font-size: 10px;
+    gap:3px;
 }
 .game-type img{
     width:20px;
     height: 20px;
+}
+.type2{
+    width:140px;
 }
 .footer-div{
     width:70%;
