@@ -470,12 +470,14 @@ footer{
     font-weight: 600;
 }
 .footer-icon{
+    
     display: flex;
     gap:20px;
     font-size: 30px;
     margin-top:15px;
     margin-bottom:35px;
 }
+
 .terms{
     display:flex;
     gap:25px;
@@ -489,7 +491,9 @@ footer{
 .icon{
     color:white ;
 }
-
+.icon:hover{
+    color:#F948B2;
+}
 .hide{
     display: none;
 }
