@@ -402,7 +402,7 @@ align-items: flex-start;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    gap:34px;
+    gap:30px;
 }
 .game-type{
     width:260px;
@@ -663,7 +663,7 @@ footer{
     width:100%;
     height:auto;
     margin-bottom:30px;
-    gap:10px;
+    gap:3px;
     
     
 }
